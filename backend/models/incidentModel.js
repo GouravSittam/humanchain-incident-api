@@ -28,12 +28,10 @@ const incidentSchema = new mongoose.Schema({
   timestamps: true
 });
 
-// Virtual for formatted date
 incidentSchema.virtual('formattedDate').get(function() {
   return this.reported_at.toISOString();
 });
 
-// Set toJSON option to include virtuals
 incidentSchema.set('toJSON', {
   virtuals: true,
   transform: (doc, ret) => {

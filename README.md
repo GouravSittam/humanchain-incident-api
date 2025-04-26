@@ -52,8 +52,8 @@ This project implements a RESTful API service to log and manage hypothetical AI 
 1. Clone the repository (or extract the zip file)
 
 ```bash
-git clone <repository-url>
-cd humanchain-assignment
+git clone https://github.com/GouravSittam/humanchain-incident-api
+cd humanchain-incident-api
 ```
 
 2. Install dependencies
