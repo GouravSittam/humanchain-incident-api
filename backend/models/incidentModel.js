@@ -19,6 +19,7 @@ const incidentSchema = new mongoose.Schema({
       values: ['Low', 'Medium', 'High'],
       message: 'Severity must be either Low, Medium, or High'
     }
+    
   },
   reported_at: {
     type: Date,
